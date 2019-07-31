@@ -31,7 +31,7 @@ namespace GetSPOAuditLogWinForm
         const string redirecturi = "INPUT_YOUR_REDIRECCT_URL";
 
         // Use the following, if you do not want to use SSO account.
-        //const string loginname = "kenmori@kenmorie.onmicrosoft.com";
+        //const string loginname = "admin@tenant.onmicrosoft.com";
 
         private static object lockForAccessTokenHashtable = new object();
         private static Hashtable AccessTokenCache = new Hashtable();
